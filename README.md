@@ -94,7 +94,7 @@
 
 	<div class="bgimg-1 w3-display-container container-fluid text-center w3-opacity-min" id="home">
       <div class="w3-display-middle" style="white-space:nowrap;">
-        <br><br><br><br><br><h1> Hello World!</h1><br><br><br><br><br><br>
+        <br><br><br><h1> Hello World!</h1><br><br><br><br><br><br><br><br>
       </div>
     </div>
 	
