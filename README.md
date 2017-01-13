@@ -1,37 +1,138 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Alexa Baker</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<style>
+			body {
+				font: 20px Montserrat, sans-serif;
+				line-height: 1.8;
+				color: #f5f6f7;
+			}
+			.bgimg-1 {
+    			background-image: url('http://bsnscb.com/data/out/156/39249587-programmer-wallpapers.png');
+    			min-height: 100%;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding-top: 700px;
+				padding-bottom: 700px;
+			}
+			.bg-2 { 
+				background-color: #474e5d; /* Dark Blue */
+				color: #ffffff;
+			}
+			.bg-3 { 
+				background-color: #fff; /* White */
+				color: #555555;
+			}
+			.bg-4 { 
+				background-color: #000000; /* Black */
+				color: #ffffff;
+			}
+			.bg-5 { 
+				background-color: #456788; /* gray-blueish */
+				color: #ffffff;
+			}
+			.container-fluid {
+				padding-top: 70px;
+				padding-bottom: 70px;
+			}
+			.navbar {
+				padding-top: 15px;
+				padding-bottom: 10px;
+				border: 0;
+				border-radius: 0;
+				margin-bottom: 0;
+				font-size: 12px;
+				letter-spacing: 5px;
+                position:fixed;
+                top:0;
+                width: 100%;
+                z-index:99999;
+			}
+			.navbar-nav  li a:hover {
+				color: #1abc9c !important;
+			}
+            /* Turn off parallax scrolling for tablets and phones */
+            @media only screen and (max-device-width: 1024px) {
+                .bgimg-1{
+              		background-attachment: scroll;
+                }
+		  </style>
+	</head>
+<body>
+      
+      <nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>  
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">ALEXA BAKER</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">ABOUT</a></li>
+					<li><a href="#">RESUME</a></li>
+					<li><a href="#">WORK</a></li>
+					<li><a href="#">CONTACT</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
-You can use the [editor on GitHub](https://github.com/alexabaker/alexabaker.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+	<div class="bgimg-1 w3-display-container container-fluid text-center w3-opacity-min" id="home">
+      <div class="w3-display-middle" style="white-space:nowrap;">
+        <br><br><br><h1> Hello World!</h1><br><br><br><br>
+      </div>
+    </div>
+	
+	<div class="container-fluid bg-2 text-center">
+		<h3>About Me Page</h3>
+		<p>:)</p>
+	</div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/alexabaker/alexabaker.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+	<div class="container-fluid bg-3 text-center">
+		<h3>Resume and qualifications</h3>
+		<p>:)</p>
+	</div>
+	
+	<div class="container-fluid bg-4 text-center">
+		<h3>Work Experience, Projects, and Portfolio Stuff</h3><br>
+		<div class="row">
+			<div class="col-sm-4">
+			<p>Work Projs.</p>
+			<img src="http://www.printawallpaper.com/upload/designs/coffee_at_work_detail.jpg" 
+			class="img-responsive" style="width:100%" alt="Image">
+			</div>
+			<div class="col-sm-4"> 
+				<p>School Projs</p>
+				<img src="http://wallpapercave.com/wp/1KcNGtr.jpg" 
+				class="img-responsive" style="width:100%" alt="Image">
+			</div>
+			<div class="col-sm-4"> 
+				<p>Fun Projs</p>
+				<img src="http://hdqwalls.com/wallpapers/programming-world-map-on.jpg" 
+				class="img-responsive" style="width:100%" alt="Image">
+			</div>
+		</div>
+	</div>
+	
+	<footer class="container-fluid bg-5 text-center">
+		<h3>Contact</h3>
+		<p>:)</p>
+	</footer>
+    
+</body>
+</html>
