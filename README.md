@@ -22,6 +22,7 @@
                 background-size: cover;
                 padding-top: 700px;
 				padding-bottom: 700px;
+                width:100%;
 			}
 			.bg-2 { 
 				background-color: #474e5d; /* Dark Blue */
@@ -51,15 +52,16 @@
 				margin-bottom: 0;
 				font-size: 12px;
 				letter-spacing: 5px;
-                position:fixed;
-                top:0;
-                width: 100%;
-                z-index:99999;
+                background-color: transparent !important;
 			}
+            .navbar.transparent.navbar-default .navbar-inner {
+               background-color: transparent !important;
+            }
 			.navbar-nav  li a:hover {
 				color: #1abc9c !important;
+                background-color: transparent !important;
 			}
-            /* Turn off parallax scrolling for tablets and phones */
+            /* Turn off scrolling for tablets and phones */
             @media only screen and (max-device-width: 1024px) {
                 .bgimg-1{
               		background-attachment: scroll;
@@ -68,33 +70,35 @@
 	</head>
 <body>
       
-      <nav class="navbar navbar-default">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>  
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">ALEXA BAKER</a>
-			</div>
-			<div class="collapse navbar-collapse" id="myNavbar">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">HOME</a></li>
-					<li><a href="#">ABOUT</a></li>
-					<li><a href="#">RESUME</a></li>
-					<li><a href="#">WORK</a></li>
-					<li><a href="#">CONTACT</a></li>
-				</ul>
-			</div>
-		</div>
+      <nav class="navbar transparent navbar-default navbar-fixed-top">
+      	<div class="navbar-inner">
+          <div class="container">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>  
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">ALEXA BAKER</a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav navbar-right">
+                      <li><a href="#">HOME</a></li>
+                      <li><a href="#">ABOUT</a></li>
+                      <li><a href="#">RESUME</a></li>
+                      <li><a href="#">WORK</a></li>
+                      <li><a href="#">CONTACT</a></li>
+                  </ul>
+              </div>
+          </div>
+    	</div>
 	</nav>
 
 	<div class="bgimg-1 w3-display-container container-fluid text-center w3-opacity-min" id="home">
       <div class="w3-display-middle" style="white-space:nowrap;">
-        <br><br><br><h1> Hello World!</h1><br><br><br><br><br><br><br><br>
+        <br><br><br><br><h1> Hello World!</h1><br><br><br><br><br><br><br><br>
       </div>
     </div>
 	
